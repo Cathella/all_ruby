@@ -1,5 +1,7 @@
-def hello_world(*args)
-  return args
-end
+myHash = {
+  "name" => "Nakitto Catherine",
+  "age" => 29
+}
 
-puts hello_world(1, 2, 3, 4, 5, 6)
+puts myHash["name"]
+puts myHash["age"]
