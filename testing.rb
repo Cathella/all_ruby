@@ -1,6 +1,7 @@
-# -, +, /, *, >, <, <=, ==, >=
+myVar = 6 == 6 || 5 == 6
 
-# myVar = 5 + 5
-myVar = 6 == 6 && 5 == 6
-
-puts myVar
+if myVar
+  puts "This is true"
+else
+  puts "This is false"
+end
