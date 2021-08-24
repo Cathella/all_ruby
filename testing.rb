@@ -1,8 +1,5 @@
-myVar = 6 == 6 || 5 == 6
+myArr = [1, 2, 3, 4, 5, 6, 7]
 
-# unless => if myVar is not true
-unless myVar
-  puts "This is false"
-else
-  puts "This is true"
+for num in myArr do
+  puts num + 4
 end
