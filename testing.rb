@@ -1,8 +1,5 @@
-string1 = "Hello"
-string2 = "Catherine"
+def hello_world
+  puts "Hello, World"
+end
 
-# concatenation
-puts string1 + ' ' + string2
-
-# interpolation
-puts "#{string1} #{string2}"
+hello_world
