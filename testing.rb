@@ -1,6 +1,5 @@
-def hello_world(greeting = "Hello", person = "Catherine")
-  return "#{greeting}, #{person}"
+def hello_world(*args)
+  return args
 end
 
-puts hello_world
-puts hello_world('Hey', 'Tommy')
+puts hello_world(1, 2, 3, 4, 5, 6)
