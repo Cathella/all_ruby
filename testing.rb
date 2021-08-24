@@ -1,6 +1,6 @@
-myInt = 5
-myStr = "Hey, there"
-myFloat = 56.78
-myBool = true
+# -, +, /, *, >, <, <=, ==, >=
 
-puts(myInt, myStr, myFloat, myBool)
+# myVar = 5 + 5
+myVar = 6 == 6 && 5 == 6
+
+puts myVar
