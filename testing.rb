@@ -1,5 +1,8 @@
-myArr = [1, 2, 3, 4, 5, 6, 7]
+string1 = "Hello"
+string2 = "Catherine"
 
-for num in myArr do
-  puts num + 4
-end
+# concatenation
+puts string1 + ' ' + string2
+
+# interpolation
+puts "#{string1} #{string2}"
